@@ -1,4 +1,5 @@
-This repository contains an implementation of the Least Recently Used (LRU) page replacement algorithm using the C programming language. It simulates how an operating system replaces memory pages based on their usage history.
+This repository contains an implementation of the Least Recently Used (LRU) page replacement algorithm using the C programming language. Internally, the program uses a matrix (2D array) to keep track of page values and the positions of their most recent use within the reference string. This allows the algorithm to determine the least recently used page efficiently without maintaining complex timestamps or additional data structures.
+
 
 ## Description
 
