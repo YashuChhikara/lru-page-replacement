@@ -20,7 +20,7 @@ void lruLogic(int RefString[], int numRef, int Frames[], int numFrames) {
     printf("Initially the frames are: ");
     for (int i = 0; i < numFrames; i++)
         printf("%3d", Frames[i]);
-    printf("\nApplying FIFO PRA:\n");
+    printf("\nApplying LRU PRA:\n");
 
     for (int i = 0; i < numRef; i++) {
         change = 0;
